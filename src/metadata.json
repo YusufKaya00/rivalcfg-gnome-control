@@ -1,0 +1,12 @@
+{
+  "uuid": "rivalcfg-control@yusufkaya00.github.io",
+  "name": "SteelSeries Rivalcfg Control",
+  "description": "GNOME top-bar battery indicator and RGB/hardware controls for SteelSeries mice via rivalcfg",
+  "shell-version": [
+    "45",
+    "46",
+    "47"
+  ],
+  "url": "https://github.com/YusufKaya00/rivalcfg-gnome-control",
+  "version": 1
+}

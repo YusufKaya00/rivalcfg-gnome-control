@@ -1,0 +1,265 @@
+/* SteelSeries Rivalcfg Control - GNOME Shell 45/46/47 Theme */
+
+/* Top Bar Panel Indicator */
+.rivalcfg-panel-box {
+    spacing: 4px;
+}
+
+.rivalcfg-panel-label {
+    font-size: 1em;
+    font-weight: 700;
+    font-feature-settings: "tnum";
+}
+
+/* Popup Menu Container */
+.rivalcfg-popup-container {
+    min-width: 316px;
+    padding: 8px 12px 10px 12px;
+    spacing: 10px;
+}
+
+/* Multi-Device Switcher */
+.rivalcfg-device-switcher {
+    spacing: 6px;
+}
+
+.rivalcfg-device-chip {
+    padding: 4px 10px;
+    border-radius: 99px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.14);
+    border: 1px solid rgba(128, 128, 128, 0.22);
+    transition-duration: 120ms;
+}
+
+.rivalcfg-device-chip:hover {
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+.rivalcfg-device-chip:checked,
+.rivalcfg-device-chip.active {
+    background-color: #3584e4;
+    border-color: #3584e4;
+    color: #ffffff;
+}
+
+/* Error / Setup Banner (missing rivalcfg or udev permissions) */
+.rivalcfg-error-banner {
+    border-radius: 10px;
+    padding: 10px 12px;
+    spacing: 4px;
+    background-color: rgba(224, 27, 36, 0.16);
+    border: 1px solid rgba(224, 27, 36, 0.45);
+    font-size: 12px;
+}
+
+/* Header Card */
+.rivalcfg-header-card {
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgba(128, 128, 128, 0.12);
+    border: 1px solid rgba(128, 128, 128, 0.22);
+    spacing: 8px;
+}
+
+.rivalcfg-header-top-row {
+    spacing: 8px;
+}
+
+.rivalcfg-device-title {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.rivalcfg-conn-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 99px;
+    background-color: rgba(128, 128, 128, 0.22);
+}
+
+.rivalcfg-conn-badge.wired,
+.rivalcfg-conn-badge.connected {
+    background-color: rgba(53, 132, 228, 0.88);
+    color: #ffffff;
+}
+
+.rivalcfg-conn-badge.wireless {
+    background-color: rgba(38, 162, 105, 0.88);
+    color: #ffffff;
+}
+
+.rivalcfg-conn-badge.sleep {
+    background-color: rgba(229, 165, 10, 0.90);
+    color: #1e1e1e;
+}
+
+.rivalcfg-conn-badge.offline {
+    background-color: rgba(192, 28, 40, 0.86);
+    color: #ffffff;
+}
+
+/* Battery Status Row & Progress Bar */
+.rivalcfg-battery-row {
+    spacing: 8px;
+}
+
+.rivalcfg-battery-pct {
+    font-size: 20px;
+    font-weight: 800;
+    font-feature-settings: "tnum";
+}
+
+.rivalcfg-battery-meta {
+    font-size: 11px;
+    opacity: 0.78;
+}
+
+.rivalcfg-battery-bar-bg {
+    height: 7px;
+    border-radius: 99px;
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+.rivalcfg-battery-bar-fill {
+    height: 7px;
+    border-radius: 99px;
+    background-color: #3584e4;
+    transition-duration: 180ms;
+}
+
+.rivalcfg-battery-bar-fill.low {
+    background-color: #e01b24;
+}
+
+.rivalcfg-battery-bar-fill.medium {
+    background-color: #f5c211;
+}
+
+.rivalcfg-battery-bar-fill.high {
+    background-color: #2ec27e;
+}
+
+.rivalcfg-battery-bar-fill.charging {
+    background-color: #3584e4;
+}
+
+.rivalcfg-refresh-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 99px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.14);
+    border: 1px solid rgba(128, 128, 128, 0.22);
+    transition-duration: 120ms;
+}
+
+.rivalcfg-refresh-btn:hover {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+.rivalcfg-refresh-btn:active {
+    background-color: rgba(53, 132, 228, 0.30);
+}
+
+/* Section Labels */
+.rivalcfg-section-label {
+    font-size: 11px;
+    font-weight: 700;
+    opacity: 0.75;
+    margin-top: 2px;
+}
+
+/* Segmented Pill Controls */
+.rivalcfg-pill-row {
+    spacing: 4px;
+}
+
+.rivalcfg-pill-btn {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.12);
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    transition-duration: 120ms;
+}
+
+.rivalcfg-pill-btn:hover {
+    background-color: rgba(128, 128, 128, 0.22);
+}
+
+.rivalcfg-pill-btn:checked,
+.rivalcfg-pill-btn.active {
+    background-color: #3584e4;
+    border-color: #3584e4;
+    color: #ffffff;
+}
+
+.rivalcfg-zone-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 99px;
+    margin-right: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+/* Color Swatches & Custom Picker Button */
+.rivalcfg-swatch-row {
+    spacing: 6px;
+}
+
+.rivalcfg-swatch-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 99px;
+    border: 2px solid rgba(128, 128, 128, 0.38);
+    transition-duration: 120ms;
+}
+
+.rivalcfg-swatch-btn:hover {
+    border-color: rgba(255, 255, 255, 0.85);
+}
+
+.rivalcfg-swatch-btn.active,
+.rivalcfg-swatch-btn:checked {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 0 2px #3584e4;
+}
+
+.rivalcfg-custom-color-btn {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    spacing: 6px;
+    background-color: rgba(128, 128, 128, 0.14);
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    transition-duration: 120ms;
+}
+
+.rivalcfg-custom-color-btn:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+/* Brightness Slider Row */
+.rivalcfg-slider-row {
+    spacing: 8px;
+    padding: 2px 0;
+}
+
+.rivalcfg-slider-value {
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 34px;
+    text-align: right;
+    font-feature-settings: "tnum";
+}
+
+/* Submenu Hardware Settings Container */
+.rivalcfg-submenu-section {
+    padding: 6px 14px 8px 14px;
+    spacing: 8px;
+}
